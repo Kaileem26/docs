@@ -1,7 +1,7 @@
 ---
 title: About workflows
 shortTitle: About workflows
-intro: 'Get a high level overview {% data variables.product.prodname_actions %} workflows, including triggers, syntax, and advanced features.'
+intro: 'Get a high-level overview of {% data variables.product.prodname_actions %} workflows, including triggers, syntax, and advanced features.'
 versions:
   fpt: '*'
   ghes: '*'
@@ -124,7 +124,7 @@ jobs:
 
 For more information, see "[Using a matrix for your jobs](/actions/using-jobs/using-a-matrix-for-your-jobs)."
 
-{% if actions-caching %}
+{% ifversion actions-caching %}
 ### Caching dependencies
 
 If your jobs regularly reuse dependencies, you can consider caching these files to help improve performance. Once the cache is created, it is available to all workflows in the same repository.
@@ -195,7 +195,7 @@ To learn more about self-hosted runner labels, see "[Using labels with self-host
 To learn more about {% data variables.product.prodname_dotcom %}-hosted runner labels, see "[Supported runners and hardware resources](/actions/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources)."
 {% endif %}
 
-{% ifversion fpt or ghes > 3.3 or ghae-issue-4757 or ghec %}
+{% ifversion fpt or ghes > 3.3 or ghae > 3.3 or ghec %}
 ### Reusing workflows
 {% data reusables.actions.reusable-workflows %}
 {% endif %}

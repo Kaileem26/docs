@@ -1,19 +1,24 @@
 ---
-title: Revisão de dependência
-intro: 'The Dependency review API allows you to understand dependency changes, and the security impact of these changes, before you add them to your environment.'
+title: Análise de dependência
+intro: A API Revisão de dependência permite que você entenda as alterações de dependência e o impacto na segurança dessas alterações antes de adicioná-las ao ambiente.
 versions:
   fpt: '*'
   ghes: '>=3.6'
   ghec: '*'
-  ghae: issue-6396
+  ghae: '>= 3.6'
 topics:
   - API
 miniTocMaxHeadingLevel: 3
 allowTitleToDifferFromFilename: true
+ms.openlocfilehash: 64cb77b737927e8d44315fd40b51f68c77c50c54
+ms.sourcegitcommit: 47bd0e48c7dba1dde49baff60bc1eddc91ab10c5
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 09/05/2022
+ms.locfileid: '147064871'
 ---
-
-## About the Dependency review API
+## Sobre a API de Revisão de Dependência
 
 {% data reusables.dependency-review.dependency-review-api-beta-note %}
 
-The Dependency Review API allows you to understand dependency changes, and the security impact of these changes, before you add them to your environment. You can view the diff of dependencies between two commits of a repository, including vulnerability data for any version updates with known vulnerabilities. Para obter mais informações sobre a análise de dependências, consulte "[Sobre a revisão de dependências](/code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review)".
+A API de Revisão de Dependência permite que você entenda as alterações de dependência e o impacto na segurança dessas alterações antes de adicioná-las ao seu ambiente. Você pode ver a comparação de dependências entre dois commits de um repositório, incluindo dados de vulnerabilidade para todas as atualizações de versão com vulnerabilidades conhecidas. Para obter mais informações sobre a revisão de dependência, confira "[Sobre a revisão de dependência](/code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review)".
